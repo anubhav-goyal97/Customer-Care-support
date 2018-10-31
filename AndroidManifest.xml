@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anubhav.lenovo.dell" >
+
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name=".searchhhh"
+            android:label="@string/title_activity_searchhhh" >
+        </activity>
+        <activity
+            android:name=".searchhhhhh"
+            android:label="@string/title_activity_searchhhhhh" >
+        </activity>
+        <activity
+            android:name=".registeractivity"
+            android:label="@string/title_activity_registeractivity" >
+        </activity>
+        <activity
+            android:name=".ShowRegisteredDevicesActivity"
+            android:label="@string/title_activity_show_registered_devices" >
+        </activity>
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".FaqActivity"
+            android:label="@string/title_activity_faq" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".ChatBotActivity"
+            android:label="@string/title_activity_chat_bot" >
+        </activity>
+        <activity
+            android:name=".MessageListActivity"
+            android:label="@string/title_activity_message_list" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+    </application>
+
+</manifest>
